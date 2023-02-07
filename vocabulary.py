@@ -6,7 +6,6 @@ word_list = {
                     "say_hi": ('привет', 'здравствуй', 'как ты'),
                     "exit_app": ('выключись', 'остановить движок', 'вырубай'),
                     "hide_all": ('протокол', 'чистый лист', 'свернуть всё', 'сверни', 'разверни'),
-                    "trash_incoming": ('trash', 'треш', 'трэш'),
                     "open_youtube": ('youtube','ютуб'),
                     "open_browser": ('браузер', 'browser', 'opera', 'оперу'),
                     "wiki_request": ('что такое', 'кто такой', 'кто такая', 'кто такие'),
@@ -38,7 +37,6 @@ phrases_done = ['./dialogs/gwen/done1.wav',
                 './dialogs/gwen/done10.wav',
                 './dialogs/gwen/done11.wav', 
 ]
-phrase_to_trash = './dialogs/gwen/trash.wav'
 
 laughing = ['./dialogs/gwen/laugh1.wav',
             './dialogs/gwen/laugh2.wav',
