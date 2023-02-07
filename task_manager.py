@@ -30,16 +30,10 @@ def execute_cmd(_task):
         play(sound)
         exit()
 
-    elif _task == "trash_incoming":
-        res = vocabulary.phrase_to_trash
-        sound = AudioSegment.from_wav(res)
-        play(sound)
-
     elif _task == "about_life":
         res = vocabulary.phrase_about_life
         sound = AudioSegment.from_wav(res)
         play(sound)
-
 
     elif _task == "wiki_request":
         wikipedia.set_lang('ru')
